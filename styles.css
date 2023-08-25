@@ -34,7 +34,7 @@
       }
       .player_one{
         width: 100%;
-       
+        background-color: rgb(255,255,255);
       }
       #audio{
         display: flex;
