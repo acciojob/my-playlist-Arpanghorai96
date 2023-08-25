@@ -1,1 +1,46 @@
 /*  your css code here. If applicable */
+ body {
+        background-color: rgb(204, 204, 204);
+      }
+      h1 {
+        text-align: center;
+      }
+      #song {
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin: 25px;
+      }
+      #song > ul {
+        list-style: none;
+      }
+      #song > ul > li > a {
+        text-decoration: none;
+      }
+      h2 {
+        text-align: center;
+      }
+      #video_audio{
+        background-color: rgb(255,255,255);
+        border: 2px solid black;
+        border-radius: 5px;
+        padding:20px;
+       width: 85vw;
+       margin: auto;
+      }
+      #video{
+        display: flex;
+        justify-content: center;
+      }
+      .player_one{
+        width: 100%;
+       
+      }
+      #audio{
+        display: flex;
+        justify-content: center;
+      }
+      .player_two{
+        width: 100%;
+       
+      }
